@@ -1,0 +1,327 @@
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar-left i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.navbar-right i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar-left h3{
+    color: darkblue;
+}
+.navbar-left .inp{
+    padding: 10px;
+    padding-left: 40px;
+    width: 500px;
+    border-style: solid;
+    position: relative;
+    font-size: 20px;
+}
+.Search{
+    position: absolute;
+    left: 330px;
+    cursor: none;
+}
+.inp:focus{
+    outline: none;
+    border-color: black;
+}
+.navbar-right h3{
+    font-size: medium;
+    font-weight: lighter;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.Profile-img{
+    width: 50px;
+    border-radius: 50%;
+}
+.pic{
+    display: flex;
+    align-items: center;
+}
+h5{
+    font-weight: lighter;
+}
+.pic i{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.pic .h5{
+    margin-left: 30px;
+}
+.pic img{
+    margin-right: 10px;
+}
+.pic h5{
+    font-size: 12px;
+}
+.left-side-bar{
+    width: 220px;
+    position: fixed;
+    top: 70px;
+    z-index: 1000;
+    background-color: #ddd;
+    border-radius: 30px;
+    padding: 7px;
+}
+hr{
+    margin-left: 20px;
+}
+.ps{
+    margin-left: 20px;
+}
+.img1{
+    width: 160px;
+    height: 230px;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 240px;
+    cursor: pointer;
+}
+.i1{
+    position: absolute;
+    left: 260px;
+    top: 230px;
+    font-size: 40px;
+    cursor: pointer;
+    color: cyan;
+}
+.i2{
+    position: absolute;
+    left: 260px;
+    top: 230px;
+    font-size: 40px;
+    cursor: pointer;
+    color: cyan;
+}
+.i3{
+    position: absolute;
+    left: 260px;
+    top: 230px;
+    font-size: 40px;
+    cursor: pointer;
+    color: cyan;
+}
+.i4{
+    position: absolute;
+    left: 260px;
+    top: 230px;
+    font-size: 40px;
+    cursor: pointer;
+    color: cyan;
+}
+.i5{
+    position: absolute;
+    left: 260px;
+    top: 230px;
+    font-size: 40px;
+    cursor: pointer;
+    color: cyan;
+}
+.h1{
+    position: absolute;
+    left: 260px;
+    top: 250px;
+    color: #fff;
+    cursor: pointer;
+    width: auto;
+}
+.h2{
+    position: absolute;
+    left: 430px;
+    top: 250px;
+    color: #fff;
+    cursor: pointer;
+}
+.h3{
+    position: absolute;
+    left: 600px;
+    top: 250px;
+    color: #fff;
+    cursor: pointer;
+}
+.h4{
+    position: absolute;
+    left: 770px;
+    top: 250px;
+    color: #fff;
+    cursor: pointer;
+}
+.h5{
+    position: absolute;
+    left: 940px;
+    top: 250px;
+    color: #fff;
+    cursor: pointer;
+}
+.img2{
+    width: 160px;
+    height: 230px;
+    position: relative;
+    border-radius: 10px;
+    left: 410px;
+    bottom: 232px;
+    cursor: pointer;
+}
+.img3{
+    width: 160px;
+    height: 230px;
+    position: relative;
+    border-radius: 10px;
+    left: 580px;
+    bottom: 464px;
+    cursor: pointer;
+}
+.img4{
+    width: 160px;
+    height: 230px;
+    position: relative;
+    border-radius: 10px;
+    left: 750px;
+    bottom: 700px;
+    cursor: pointer;
+}
+.img5{
+    width: 160px;
+    height: 230px;
+    position: relative;
+    border-radius: 10px;
+    left: 920px;
+    bottom: 933px;
+    cursor: pointer;
+}
+.post{
+    margin-left: 300px;
+    width: 780px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    background-color: #e4e4e4;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.cards{
+    width: 100px;
+    height: 300px;
+    left: 200px;
+}
+.imgd{
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+.tit{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.left div >*{
+    line-height: 1px;
+}
+.ic{
+    font-size: 30px;
+    cursor: pointer;
+}
+.sa{
+    height: 600px;
+    width: 780px;
+    margin-bottom: 20px;
+}
+.sh{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sh i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.sh h4{
+    cursor: pointer;
+}
+.right-side-bar{
+    position: fixed;
+    top: 50px;
+}
+.two{
+    margin-left: 1150px;
+    top: 60px;
+    background-color: #ccc;
+    position: absolute;
+    padding: 10px;
+    padding-bottom: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+}
+.two div img{
+    width: 40px;
+    border-radius: 30px;
+}
+.two div{
+    display: flex;
+    gap: 20px;
+    height: 40px;
+    align-items: center;
+}
+.two div .b1{
+    border-style: none;
+    background-color: blue;
+    color: white;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+}
+.b2{
+    border-style: none;
+    background-color: tomato;
+    cursor: pointer;
+    height: 25px;
+    color: white;
+}
+.act{
+    top: 260px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    width: 300px;
+}
+.act1{
+    top: 450px;
+    width: 300px;
+}
+.two .h9{
+    opacity: 0.5;
+}
+.act div p{
+    opacity: 0.5;
+}
